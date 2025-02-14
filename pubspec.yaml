@@ -26,6 +26,8 @@ dependencies:
   #Assets
   cupertino_icons: ^1.0.8
   flutter_svg: ^2.0.17
+  cached_network_image: ^3.4.1
+
   #State Management
 
   flutter_bloc: ^9.0.0
@@ -41,8 +43,8 @@ flutter:
   uses-material-design: true
 
   #------------------------LOCAL ASSETS-------------------#
- # assets:
-    #- assets/images/bag/
+  assets:
+    - assets/images/
 
 
   #------------------------LOCAL FONTS-------------------#
